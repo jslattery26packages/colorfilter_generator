@@ -3,6 +3,8 @@ import 'package:colorfilter_generator/colorfilter_generator.dart';
 
 /// Preset filters that can be used directly
 class PresetFilters {
+  const PresetFilters();
+
   /// NoFilter: No filter
   static ColorFilterGenerator none = ColorFilterGenerator(
     name: "No Filter",
